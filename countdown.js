@@ -5,7 +5,7 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 async function countdownTimer() {
     while (true) {
 
-        let finish_date = new Date("December 13, 2026 00:00:00");
+        let finish_date = new Date("2026-12-17T18:00:00");
 
         let now = Date.now();
 
